@@ -5,11 +5,11 @@ import (
 	"strings"
 )
 
-type Coordinates struct {
+type coordinates struct {
 	x, y float32
 }
 
-var satellites = map[string]Coordinates{
+var satellites = map[string]coordinates{
 	"Kenobi":    {-500, -200},
 	"Skywalker": {100, -100},
 	"Sato":      {500, 100},

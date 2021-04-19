@@ -107,5 +107,5 @@ func main() {
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/topsecret", handlerTopSecret)
 	http.HandleFunc("/topsecret_split/", handlerTopSecretSplit)
-	log.Fatal(http.ListenAndServe(":80", nil))
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }

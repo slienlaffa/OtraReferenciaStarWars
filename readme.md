@@ -1,3 +1,8 @@
+## Proyecto
+El archivo "Backend - Operacion Fuego de Quasar.pdf" contiene la descripción del proyecto. 
+Tiene un ejemplo que esta malo.
+
+
 ## Prerequisistos
 
 Tener GO instalado
